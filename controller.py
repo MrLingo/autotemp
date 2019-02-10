@@ -6,10 +6,10 @@ import generators as gen
 
 invalid_input_message = '\nInvalid input!'
 
-# Have a fixed length of 12 when filled.
+# Should fill maximum 12 elements
 included_tags = []
 
-# Have a fixed length of 7 when filled.
+# Should fill maximum 7 elements
 styled_tags = []
 
 final_css_list = []
@@ -157,13 +157,3 @@ if __name__ != '_main_':
                 gen.generate_js(js_input)
         except ValueError:
             print(invalid_input_message)
-
-
-
-
-
-
-
-
-
-
