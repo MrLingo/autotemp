@@ -11,7 +11,6 @@ Start the app by runnig the autotemp.py while having the other scripts in the sa
 2. `File` -> `Open...` -> select autotemp.py.py
 3. In the new window -> `Run` -> `Run Module`
 
-## Installing Pip and Matplotlib:
+## Installing Pip:
 
-`python -m pip install -U pip`  
-`python -m pip install -U matplotlib`
+`python -m pip install -U pip3`  
